@@ -30,10 +30,10 @@ const devConfig = {
         contentBase: path.join(__dirname, './dist'),
         historyApiFallback: true,
         host: '127.0.0.1',
-        hot: true
-        /*proxy: {
-            '/api/!*': 'http://localhost:8090/$1'
-        }*/
+        hot: true,
+        proxy: {
+            '/api/*': 'http://localhost:8090/$1'
+        }
     }
 };
 

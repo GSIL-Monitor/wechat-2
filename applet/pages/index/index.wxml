@@ -1,0 +1,62 @@
+<!--index.wxml-->
+<view class="search" id="search">
+  <view class="search-inner clearfix">
+    <view class="search-l fl" id="channel">
+      <icon></icon>
+      <text>频道</text>
+    </view>
+    <view class="search-r fr">
+      <input id="search_value" type="text" placeholder="搜索药品" />
+    </view>
+  </view>
+</view>
+<!--顶部搜索end-->
+<!--顶部轮播图begin-->
+<import src="../index/template/topScroll.wxml" />
+<template is="topScroll" data="{{ topScroll, indicatorDots, autoplay, interval, duration }}" />
+<!--顶部轮播图end-->
+<!--导航图标 begin-->
+<import src="../index/template/banner.wxml" />
+<template is="banner" data="{{ bannerIcon }}" />
+<!--导航图标 end-->
+<!--文字广告 begin-->
+<view class="tehui">【特惠】全场满39元包邮。</view>
+<!--文字广告 end-->
+
+<!--秒杀模块 begin-->
+<view class="skill mt30" id="skill_sec">
+  <view class="skill-top clearfix">
+    <view class="skillt-l fl"><image src="../images/skill-logo.png" alt=""></image></view>
+    <view class="skillt-m fl" id="skill_timeout">21点场<text>00</text>:<text>00</text>:<text>00</text></view>
+    <view class="skillt-r fr"><navigator url="">1元秒健康<icon></icon></navigator></view>
+  </view>
+</view>
+<!--秒杀模块 end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
